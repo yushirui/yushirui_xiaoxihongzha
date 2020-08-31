@@ -6,11 +6,6 @@ import sys
 # 线程
 import threading
 
-# 图片
-sys.path.append('../')
-sys.path.append('../../')
-sys.path.append('../../../')
-sys.path.append('../../../../')
 
 from PyQt5.QtWidgets import *
 from PyQt5.QtCore import *
@@ -117,6 +112,8 @@ class Yu(QDialog, Ui_Dialog):
             # 写队列，等待时间1秒
             self.queue.put(1)
 
+# 命令行中运行本语句，可以打包
+# 注意，一定要从github安装pyinstaller，否则，很容易打包失败
 # pyinstaller -F -w -i yu.ico main.py
 if __name__ == "__main__":
     # app

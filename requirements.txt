@@ -1,0 +1,33 @@
+# 所有库名称版本写入requirements.txt
+# pip freeze > requirements.txt
+
+# 安装所有requirements.txt中的库
+# pip install -r requirements.txt
+
+# 从豆瓣安装
+# pip install -i http://pypi.douban.com/simple/ --trusted-host pypi.douban.com -r requirements.txt
+
+# 安装pyinstaller
+# pip install https://github.com/pyinstaller/pyinstaller/archive/develop.tar.gz
+
+# 爬虫和自动化解析
+lxml==4.5.0
+
+# 请求库
+requests==2.22.0
+
+# 键盘操作
+pynput==1.6.3
+
+# 暗黑主题
+QDarkStyle==2.7
+
+# pyqt
+PyQt5==5.14.0
+PyQt5-sip==12.7.0
+pyqt5-tools==5.13.2.1.6rc1
+
+# PyQt5，必装插件
+QScintilla==2.11.4
+sip==5.0.1
+

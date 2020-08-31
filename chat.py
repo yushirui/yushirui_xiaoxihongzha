@@ -3,9 +3,12 @@
 # Date: 2020-08-31
 # Message：聊天语句，从网络获取句子
 
-import requests
 import os
 import json
+
+# 请求库
+import requests
+# 解析库
 from lxml import etree
 
 # 聊天语句，从网络获取句子
